@@ -1,2 +1,2 @@
-# sedd-multilanguage-sample
+# seed-multilanguage-sample
 Sample multi-language implementations
