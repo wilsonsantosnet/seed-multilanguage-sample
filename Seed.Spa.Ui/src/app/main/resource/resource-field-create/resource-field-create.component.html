@@ -1,0 +1,31 @@
+﻿<div class="row " [formGroup]="vm.form">
+  <section class="col-md-12"  >
+    <div class='form-group'>
+      <label>{{ vm.infos | traduction:'group' }}</label>
+      <input type='text' class='form-control' [(ngModel)]='vm.model.group' name='group' required formControlName='group'    maxlength=50 autocomplete='off'/>
+    </div>
+  </section>
+
+  <section class="col-md-12"  >
+    <div class='form-group'>
+      <label>{{ vm.infos | traduction:'culture' }}</label>
+      <input type='text' class='form-control' [(ngModel)]='vm.model.culture' name='culture' required formControlName='culture'    maxlength=6 autocomplete='off'/>
+    </div>
+  </section>
+
+  <section class="col-md-12"  >
+    <div class='form-group'>
+      <label>{{ vm.infos | traduction:'key' }}</label>
+      <input type='text' class='form-control' [(ngModel)]='vm.model.key' name='key' required formControlName='key'    maxlength=150 autocomplete='off'/>
+    </div>
+  </section>
+
+  <section class="col-md-12"  >
+    <div class='form-group'>
+      <label>{{ vm.infos | traduction:'value' }}</label>
+      <input type='text' class='form-control' [(ngModel)]='vm.model.value' name='value' required formControlName='value'    maxlength=150 autocomplete='off'/>
+    </div>
+  </section>
+
+</div>
+
