@@ -1,4 +1,4 @@
-﻿<!--EXT-->
+<!--EXT-->
 
 <section class="container-fluid">
     <section class="card">
@@ -18,6 +18,8 @@
             <a *ngIf='_showBtnNew && vm | isAuth:"CanWrite"' class="btn py-0" (click)="onCreate()" title="{{vm.generalInfo | traduction:'novoItem'}}">
               <span class="fa fa-plus" aria-hidden="true"></span> {{vm.generalInfo | traduction:'novoItem'}}
             </a>
+            <a  class="btn btn-success" href="#" (click)="onExecute()">Teste</a>
+
           </div>
         </div>
       </header>

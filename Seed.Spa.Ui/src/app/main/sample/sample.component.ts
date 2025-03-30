@@ -40,6 +40,14 @@ export class SampleComponent extends ComponentBase implements OnInit, OnDestroy 
     this.vm = null;
   }
 
+  onExecute() {
+
+    this.sampleService.getDataItem().subscribe(response => {
+      console.log("getDataItem",response)
+    })
+
+  }
+
   ngOnInit() {
 
     this.vm = this.sampleService.initVM();

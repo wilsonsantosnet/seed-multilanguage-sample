@@ -2,6 +2,13 @@
 {
     public class SampleFilter  : SampleFilterBase
     {
+        public SampleFilter()
+        {
+            this.ByCache = true;
+
+
+        }
+
 
     }
 }
